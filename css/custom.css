@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon-option-vertical:before {
+    content: "\e235";
+}
+
+.glyphicon.glyphicon-option-vertical {
+    top: 0;
+}
+
+html,body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.rapid_color_white {
+    color: white;
+    font-size: 17px !important;
+}
+
+.rapid_color_red {
+    color: #f05050;
+}
+.rapid_logo {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.rapid_install {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
